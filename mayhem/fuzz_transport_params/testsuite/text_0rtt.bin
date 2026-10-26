@@ -1,0 +1,1 @@
+€initial_max_streams_bidi=100 initial_max_streams_uni=100 initial_max_stream_data_bidi_local=262144 initial_max_stream_data_bidi_remote=262144 initial_max_stream_data_uni=262144 initial_max_data=1048576 max_idle_timeout=30000 max_udp_payload_size=1200 active_connection_id_limit=8

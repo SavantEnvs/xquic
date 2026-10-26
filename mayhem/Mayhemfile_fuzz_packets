@@ -1,0 +1,9 @@
+project: savantenvs/xquic
+target: fuzz_packets
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_packets/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_packets
+    libfuzzer: true
+    timeout: 30
